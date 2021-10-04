@@ -1,0 +1,31 @@
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: transparent;
+  justify-content: center;
+}
+
+.flex-container > div {
+  background-color: transparent;
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 30px;
+}
+#grad1 {
+  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+}
+
+a:link,
+a:visited {
+  color: rgb(50, 50, 50);
+  text-decoration: underline;
+  cursor: auto;
+}
+
+a:link:active,
+a:visited:active {
+  color: rgb(50, 50, 50);
+}
